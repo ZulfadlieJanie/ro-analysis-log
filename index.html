@@ -549,9 +549,9 @@
     const yyyy = now.getFullYear();
     const mm = String(now.getMonth() + 1).padStart(2, '0');
 
-    document.getElementById('tagDoc1').textContent = `Target: ${ro}-${yyyy}-${mm}-${typeCode}-01.pdf (Mandatory)`;
-    document.getElementById('tagDoc2').textContent = `Target: ${ro}-${yyyy}-${mm}-${typeCode}-02.pdf (Optional)`;
-    document.getElementById('tagDoc3').textContent = `Target: ${ro}-${yyyy}-${mm}-${typeCode}-03.pdf (Optional)`;
+    document.getElementById('tagDoc1').textContent = `Mandatory`;
+    document.getElementById('tagDoc2').textContent = `Optional`;
+    document.getElementById('tagDoc3').textContent = `Optional`;
   }
 
   function readFileAsBase64(file) {
